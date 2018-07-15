@@ -9,9 +9,9 @@
 #define _NGINX_H_INCLUDED_
 
 
-#define nginx_version      1015000
-#define NGINX_VERSION      "1.15.0"
-#define NGINX_VER          "nginx/" NGINX_VERSION
+#define nginx_version      2003001
+#define NGINX_VERSION      "2.3.1"
+#define NGINX_VER          "Minaminx/" NGINX_VERSION
 
 #ifdef NGX_BUILD
 #define NGINX_VER_BUILD    NGINX_VER " (" NGX_BUILD ")"
@@ -19,7 +19,7 @@
 #define NGINX_VER_BUILD    NGINX_VER
 #endif
 
-#define NGINX_VAR          "NGINX"
+#define NGINX_VAR          "Minaminx"
 #define NGX_OLDPID_EXT     ".oldbin"
 
 
